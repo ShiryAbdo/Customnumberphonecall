@@ -18,15 +18,32 @@
         android:textColorHint="#000"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:hint="Enter phone"  />
+        android:hint="@string/enter_phone"  />
+
+    <LinearLayout
+
+ android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/askRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/callicon" />
+        <TextView
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textSize="@dimen/_30sdp"
+            android:text="@string/call"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 
-    <ImageView
-        android:id="@+id/askRegister"
-        android:layout_marginTop="@dimen/_30sdp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         android:src="@drawable/callicon" />
 
 
 </LinearLayout>

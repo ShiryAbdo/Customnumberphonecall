@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/back"
     android:layout_height="match_parent"
-    tools:context="custom.number.phone.call.PrivateNumber">
+    tools:context="custom.number.phone.call.AskRegistration">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:textColor="#000"
         android:textStyle="bold"
         android:textSize="@dimen/_15sdp"
-        android:text="Pleas  Register Frist" />
+        android:text="@string/pleas_register_frist" />
 
     <Button
         android:background="@drawable/button"
@@ -30,6 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
    android:textSize="@dimen/_15sdp"
-        android:text="Register"
+        android:text="@string/registe"
         android:textAllCaps="false" />
 </LinearLayout>

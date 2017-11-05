@@ -15,18 +15,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
          android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
 
 
     <EditText
         android:layout_margin="@dimen/_10sdp"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
          android:ems="10"
+        android:hint="@string/phone"
         android:inputType="textPersonName"
-        android:text="Phone" />
+        />
 
 
 
@@ -40,5 +40,5 @@
         android:layout_margin="@dimen/_10sdp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         android:text="Register" />
+         android:text="@string/registe" />
 </LinearLayout>

@@ -21,7 +21,7 @@
         android:textStyle="bold"
         android:textColor="#000"
         android:textSize="@dimen/_15sdp"
-        android:text="You are not permitted to use in your area" />
+        android:text="@string/you_are_not_permitted_to_use_in_your_area" />
 
     <Button
         android:layout_marginTop="@dimen/_10sdp"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button"
         android:textColor="#ffffff"
-        android:text="Back"
+        android:text="@string/back"
         android:textAllCaps="false" />
 
 </LinearLayout>

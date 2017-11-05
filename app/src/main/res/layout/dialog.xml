@@ -20,7 +20,7 @@
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="@dimen/_15sdp"
-        android:text=" Do you want to call as a private number or custom number" />
+        android:text="@string/do_you_want_to_call_as_a_private_number_or_custom_number" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
  android:layout_weight="1"
             android:layout_margin="@dimen/_10sdp"
 
-            android:text="Private"
+            android:text="@string/privat"
             android:textAllCaps="false" />
 
         <Button
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_10sdp"
             android:layout_weight="1"
-            android:text="Custom"
+            android:text="@string/custom"
             android:textAllCaps="false" />
     </LinearLayout>
 

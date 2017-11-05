@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رقم خاص</string>
+    <string name="take_a_tour">"ابدأ الجوله "</string>
+    <string name="registration">"سجل الأن "</string>
+    <string name="registe">تسجيل</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="name">الإسم</string>
+    <string name="pleas_register_frist">"من فضلك سجل  أولا "</string>
+    <string name="id_vodo">"من فضلك  سجل أولا   "</string>
+    <string name="privat">"خاص "</string>
+    <string name="do_you_want_to_call_as_a_private_number_or_custom_number">"هل تريد إجراء مكالمة  من رقم خاص او رقم معين "</string>
+    <string name="custom">محدد</string>
+    <string name="enter_phone">رقم  الهاتف</string>
+    <string name="call">اتصل</string>
+    <string name="apply_payment_method">طريقة الدفع</string>
+    <string name="skip_now">تخطي الأن</string>
+    <string name="you_are_not_permitted_to_use_in_your_area">"غير مسموح بإستخدام الخدمة  في هذه المنطقة في الوقت الحالي "</string>
+    <string name="back">رجوع</string>
+</resources>
