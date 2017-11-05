@@ -24,10 +24,12 @@ public class Tour extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Resources res = this.getResources();
          DisplayMetrics dm = res.getDisplayMetrics();
-        android.content.res.Configuration conf = res.getConfiguration();
-        conf.setLocale(new Locale(LocaleHelper.getLanguage(this))); // API 17+ only.
-         res.updateConfiguration(conf, dm);
-         setContentView(R.layout.activity_tour);
+        Configuration config = new Configuration();
+        config.locale = new Locale(LocaleHelper.getLanguage(this));
+//        android.content.res.Configuration conf = res.getConfiguration();
+//        conf.setLocale(new Locale(LocaleHelper.getLanguage(this))); // API 17+ only.
+         res.updateConfiguration(config, dm);
+         this.setContentView(R.layout.activity_tour);
 
 
 
