@@ -17,25 +17,18 @@ public class Tour extends AppCompatActivity {
     Button takeTour ,regist ;
 
 
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(LocaleHelper.onAttach(newBase));
-    }
+
     @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
         Resources res = this.getResources();
-// Change locale settings in the app.
-        DisplayMetrics dm = res.getDisplayMetrics();
+         DisplayMetrics dm = res.getDisplayMetrics();
         android.content.res.Configuration conf = res.getConfiguration();
         conf.setLocale(new Locale(LocaleHelper.getLanguage(this))); // API 17+ only.
-        LocaleHelper.setLocale(this,LocaleHelper.getLanguage(this));
          res.updateConfiguration(conf, dm);
-        setContentView(R.layout.activity_tour);
+         setContentView(R.layout.activity_tour);
+
 
 
 
@@ -57,12 +50,7 @@ public class Tour extends AppCompatActivity {
         });
 
     }
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-       takeTour.setText(R.string.take_a_tour);
-       regist.setText(R.string.registration);
 
-    }
+
 
 }
